@@ -1,6 +1,6 @@
 **Auth Modal (Login / Register / Reset Password)**
 
-![Login Modal Screenshot](modal.png)
+![Login Modal Screenshot](modal.gif)
 
 This modal provides authentication with login, registration, and password reset functionality.
 

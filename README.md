@@ -28,12 +28,11 @@ Backend-Ready – Prepared for API integration (login.js handles modal switching
 │   └── logo.png     # Placeholder logo
 └── Shot-2025-09-27.png # Screenshot of the UI
 ```
-**Clone the project**
+**Clone**
 ```bash
-git clone https://github.com/your-repo/auth-modal.git
-cd auth-modal 
+git clone https://github.com/NT411/Simple-LogIn-Register-ResetPass-Modal.git
 ```
-Open login.html with live server otherwise the Lottie Animation will not work
+Open login.html with VScode live server or any live server otherwise the Lottie Animation will not work
   
 Connect to Backend
 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottie Integration</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="modal" id="logInModal">
+      <div class="modal-content">
+        <h1><img src="/assets/logo.png" class="logo" /></h1>
+        <p class="myLocation">Log in.</p>    
+        <input type="email" id="loginEmail" placeholder="Email" />
+        <input type="password" id="loginPassword" placeholder="Password" />
+        <button class="loginSubmitBtn">Login</button>
+        <p class="modal-switch-text">
+          <a href="#" id="switchToResetFromLogin">Password Reset.</a>
+        </p>
+         <p class="modal-switch-text">
+          <a href="#" id="switchToRegisterFromLogin">Register.</a>
+        </p>
+      </div>
+      <div class="image-section">
+        <div id="lottie-animation1"></div>
+      </div>
+    </div>
+    <!--RESET PASS MODAL-->
+    <div class="modal" id="resetPasswordModal">
+      <div class="modal-content">
+        <h1><img src="/assets/logo.png" class="logo" /></h1>
+        <p>Reset Password.</p>
+        <input type="email" id="resetEmail" placeholder="Enter your email" />
+        <input type="phone" id="resetPhone" placeholder="Enter your phone" />
+        <button class="resetSubmitBtn">Send Reset Link</button>
+        <div class="switchLine">
+        <p class="modal-switch-text">
+          <a href="#" id="switchToLoginFromReset">Login.</a>
+        </p>
+         <p class="modal-switch-text">
+          <a href="#" id="switchToRegisterFromReset">Register.</a>
+        </p>
+        </div>
+      </div>
+      <div class="image-section">
+        <div id="lottie-animation2"></div>
+      </div>
+    </div>
+    <!--REGISTER MODAL-->
+    <div class="modal" id="registerPasswordModal">
+      <div class="modal-content">
+        <h1><img src="/assets/logo.png" class="logo" /></h1>
+        <p>Register.</p>
+        <input type="email" id="registerEmail" placeholder="Enter your email" />
+        <input type="password" id="chosePassword" placeholder="Chose your password" />
+        <button class="registerSubmitBtn">Register</button>
+        <div class="switchLine">
+        <p class="modal-switch-text">
+          <a href="#" id="switchToLoginFromRegister">Login.</a>
+        </p>
+         <p class="modal-switch-text">
+          <a href="#" id="switchToResetPasswordFromRegister">Password Reset.</a>
+        </p>
+        </div>
+      </div>
+      <div class="image-section">
+        <div id="lottie-animation3"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

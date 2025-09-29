@@ -14,11 +14,6 @@ Password Reset Modal – Email
 
 Lottie Animations 
 
-Responsive Design – Works on desktop and mobile
-
-Backend-Ready – Prepared for API integration (login.js handles modal switching and actions)
-
-
 **Structure**
 ```
 ├── login.html       # Core HTML structure for modals

@@ -34,23 +34,3 @@ git clone https://github.com/NT411/Simple-LogIn-Register-ResetPass-Modal.git
 ```
 Open login.html with VScode live server or any live server otherwise the Lottie Animation will not work
   
-Connect to Backend
-
-The modal is frontend-only by default. To integrate:
-
-Use login.js to capture form data.
-
-Connect form submissions to your backend API.
-
-Replace placeholder console.log actions with actual HTTP requests (fetch/axios).
-
-**Customization**
-
-Styling: Edit login.css to adjust colors, fonts, or animations.
-
-Logo: Replace assets/logo.png with your own branding.
-
-Animations: Update the Lottie JSON paths inside login.html.
-
-Validation: Extend login.js with form validation before sending requests.
-   
